@@ -99,6 +99,10 @@ and run the following ::
 
         pip install .
 
+In ``diffpy.structure>=3.3.1``, please ensure the dependency ``pycifrw`` is installed from ``conda-froge`` ::
+
+        conda install pycifrw
+
 Getting Started
 ---------------
 
