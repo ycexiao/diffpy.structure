@@ -32,11 +32,11 @@ import sys
 from contextlib import contextmanager
 
 import numpy
+from CifFile.yapps3_compiled_rt import YappsSyntaxError
 
 from diffpy.structure import Atom, Lattice, Structure
 from diffpy.structure.parsers import StructureParser
 from diffpy.structure.structureerrors import StructureFormatError
-from CifFile.yapps3_compiled_rt import YappsSyntaxError
 
 # ----------------------------------------------------------------------------
 
